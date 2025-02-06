@@ -97,13 +97,13 @@ body {
 
 .six {
   position: relative;
-  top: 0px;
+  top: 10vh;
   z-index: 1;
 }
 
 .six img {
   display: inline-block;
-  height: 400px;
+  height: 350px;
   max-width: 100%;
   /* height: auto; */
 }
