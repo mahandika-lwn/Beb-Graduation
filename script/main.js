@@ -1,7 +1,7 @@
 // Trigger to play music in the background with sweet-alert
 window.addEventListener('load', () => {
     Swal.fire({
-        title: 'Cicik, boleh nyalakan musik?',
+        title: 'Bubuuu, boleh nyalain musik?',
         icon: 'warning',
         showCancelButton: true,
         confirmButtonColor: '#3085d6',
@@ -18,17 +18,14 @@ window.addEventListener('load', () => {
     });
 });
 
-
 // Animation timeline
 const animationTimeline = () => {
     // Split chars that needs to be animated individually
     const textBoxChars = document.getElementsByClassName("chatbox")[0];
     const hgd = document.getElementsByClassName("wish-x")[0];
-
     textBoxChars.innerHTML = `<span>${textBoxChars.innerHTML
         .split("")
         .join("</span><span>")}</span>`;
-
     hgd.innerHTML = `<span>${hgd.innerHTML
         .split("")
         .join("</span><span>")}</span>`;
