@@ -1,2 +1,2 @@
-# Cik-Project
-Access this site at https://mahandika-lwn.github.io/Cik-Project/
+# Beb-Graduation
+Access this site at https://mahandika-lwn.github.io/Beb-Graduation/
